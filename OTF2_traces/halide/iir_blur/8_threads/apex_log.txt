@@ -1,0 +1,50 @@
+Program to run : ./iir_blur_filter ../images/rgb_small.png result.png
+Auto-scheduled time: 0.255569ms
+Success!
+
+Elapsed time: 5.1041e-05 seconds
+Total processes detected: 1
+Cores detected on rank 0: 40
+Worker Threads observed on rank 0: 8
+Available CPU time on rank 0: 0.000408328 seconds
+Available CPU time on all ranks: 0.000408328 seconds
+
+Counter                                   : #samples | minimum |    mean  |  maximum |  stddev 
+------------------------------------------------------------------------------------------------
+                           status:Threads :        1      9.000      9.000      9.000      0.000   
+                            status:VmData :        1   7.88e+04   7.88e+04   7.88e+04      0.000   
+                             status:VmExe :        1    344.000    344.000    344.000      0.000   
+                             status:VmHWM :        1   1.14e+04   1.14e+04   1.14e+04      0.000   
+                             status:VmLck :        1      0.000      0.000      0.000      0.000   
+                             status:VmLib :        1   1.64e+04   1.64e+04   1.64e+04      0.000   
+                             status:VmPTE :        1    216.000    216.000    216.000      0.000   
+                            status:VmPeak :        1   7.18e+05   7.18e+05   7.18e+05      0.000   
+                             status:VmPin :        1      0.000      0.000      0.000      0.000   
+                             status:VmRSS :        1   1.14e+04   1.14e+04   1.14e+04      0.000   
+                            status:VmSize :        1   6.53e+05   6.53e+05   6.53e+05      0.000   
+                             status:VmStk :        1    156.000    156.000    156.000      0.000   
+                            status:VmSwap :        1      0.000      0.000      0.000      0.000   
+        status:nonvoluntary_ctxt_switches :        1      2.000      2.000      2.000      0.000   
+           status:voluntary_ctxt_switches :        1    370.000    370.000    370.000      0.000   
+------------------------------------------------------------------------------------------------
+
+GPU Timers                                           : #calls  |    mean  |   total  |  % total  
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+
+CPU Timers                                           : #calls  |    mean  |   total  |  % total  
+------------------------------------------------------------------------------------------------
+                                      pthread_create :        8      0.003      0.021    --n/a--
+                   Main Thread: APEX Pthread Wrapper :        1      0.000      0.000     10.586
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+                                        Total timers : 9
+Closing OTF2 event files...
+Writing OTF2 definition files...
+Writing OTF2 Global definition file...
+Writing OTF2 Node information...
+Writing OTF2 Communicators...
+Closing the archive...
+done.
+/home/sshirzad/src/halide-tutorials/experiments/iir_blur/halide/build
