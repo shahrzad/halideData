@@ -1,0 +1,50 @@
+Program to run : ./nl_means_process_halide /home/sshirzad/src/halide-tutorials/experiments/nl_means/images/rgb.png 7 7 0.12 10 result_halide.png
+time: 100.203ms
+
+Elapsed time: 5.1403e-05 seconds
+Total processes detected: 1
+Cores detected on rank 0: 40
+Worker Threads observed on rank 0: 16
+Available CPU time on rank 0: 0.000822448 seconds
+Available CPU time on all ranks: 0.000822448 seconds
+
+Counter                                   : #samples | minimum |    mean  |  maximum |  stddev 
+------------------------------------------------------------------------------------------------
+                    1 Minute Load average :        1      2.230      2.230      2.230      0.000   
+                           status:Threads :        1     12.000     12.000     12.000      0.000   
+                            status:VmData :        1   2.00e+05   2.00e+05   2.00e+05      0.000   
+                             status:VmExe :        1    320.000    320.000    320.000      0.000   
+                             status:VmHWM :        1   6.56e+04   6.56e+04   6.56e+04      0.000   
+                             status:VmLck :        1      0.000      0.000      0.000      0.000   
+                             status:VmLib :        1   1.64e+04   1.64e+04   1.64e+04      0.000   
+                             status:VmPTE :        1    304.000    304.000    304.000      0.000   
+                            status:VmPeak :        1   1.17e+06   1.17e+06   1.17e+06      0.000   
+                             status:VmPin :        1      0.000      0.000      0.000      0.000   
+                             status:VmRSS :        1   5.64e+04   5.64e+04   5.64e+04      0.000   
+                            status:VmSize :        1   9.70e+05   9.70e+05   9.70e+05      0.000   
+                             status:VmStk :        1    152.000    152.000    152.000      0.000   
+                            status:VmSwap :        1      0.000      0.000      0.000      0.000   
+        status:nonvoluntary_ctxt_switches :        1      4.000      4.000      4.000      0.000   
+           status:voluntary_ctxt_switches :        1     35.000     35.000     35.000      0.000   
+------------------------------------------------------------------------------------------------
+
+GPU Timers                                           : #calls  |    mean  |   total  |  % total  
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+
+CPU Timers                                           : #calls  |    mean  |   total  |  % total  
+------------------------------------------------------------------------------------------------
+                                      pthread_create :       16      0.000      0.003    --n/a--
+                   Main Thread: APEX Pthread Wrapper :        1      0.000      0.000      5.257
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+                                        Total timers : 17
+Closing OTF2 event files...
+Writing OTF2 definition files...
+Writing OTF2 Global definition file...
+Writing OTF2 Node information...
+Writing OTF2 Communicators...
+Closing the archive...
+done.
+/home/sshirzad/src/halide-tutorials/experiments/nl_means/build

@@ -1,0 +1,48 @@
+time: 150.632ms
+
+Elapsed time: 0.541402 seconds
+Cores detected: 40
+Worker Threads observed: 8
+Available CPU time: 4.33122 seconds
+
+Counter                                   : #samples | minimum |    mean  |  maximum |  stddev 
+------------------------------------------------------------------------------------------------
+                    1 Minute Load average :        1      2.230      2.230      2.230      0.000   
+                           status:Threads :        1      6.000      6.000      6.000      0.000   
+                            status:VmData :        1   6.83e+04   6.83e+04   6.83e+04      0.000   
+                             status:VmExe :        1    504.000    504.000    504.000      0.000   
+                             status:VmHWM :        1   4.18e+04   4.18e+04   4.18e+04      0.000   
+                             status:VmLck :        1      0.000      0.000      0.000      0.000   
+                             status:VmLib :        1   9.14e+04   9.14e+04   9.14e+04      0.000   
+                             status:VmPTE :        1    364.000    364.000    364.000      0.000   
+                            status:VmPeak :        1   2.26e+05   2.26e+05   2.26e+05      0.000   
+                             status:VmPin :        1      0.000      0.000      0.000      0.000   
+                             status:VmRSS :        1   4.18e+04   4.18e+04   4.18e+04      0.000   
+                            status:VmSize :        1   2.26e+05   2.26e+05   2.26e+05      0.000   
+                             status:VmStk :        1    152.000    152.000    152.000      0.000   
+                            status:VmSwap :        1      0.000      0.000      0.000      0.000   
+        status:nonvoluntary_ctxt_switches :        1     41.000     41.000     41.000      0.000   
+           status:voluntary_ctxt_switches :        1     74.000     74.000     74.000      0.000   
+------------------------------------------------------------------------------------------------
+
+
+Timer                                                : #calls  |    mean  |   total  |  % total  
+------------------------------------------------------------------------------------------------
+                                           APEX MAIN :        1      0.541      0.541    100.000
+N3hpx10components6server15runtime_support19shutdo... :        1      0.000      0.000      0.004
+N3hpx10components6server15runtime_support22load_c... :        1      0.002      0.002      0.039
+N3hpx10components6server15runtime_support29call_s... :        2      0.000      0.000      0.003
+N3hpx4agas6server17primary_namespace15colocate_ac... :        1      0.000      0.000      0.001
+N3hpx7actions6actionIPFvRKNS_10components6server1... :        1      0.000      0.000      0.001
+                                            hpx_main :       20      0.051      1.018     23.497
+                                          run_helper :        1      0.385      0.385      8.898
+                                           APEX Idle :                          2.926     67.557
+------------------------------------------------------------------------------------------------
+                                        Total timers : 27
+Closing OTF2 event files...
+Writing OTF2 definition files...
+Writing OTF2 Global definition file...
+Writing OTF2 Node information...
+Writing OTF2 Communicators...
+Closing the archive...
+done.

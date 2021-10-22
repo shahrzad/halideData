@@ -1,0 +1,6 @@
+16
+Halide::Runtime::Internal::spawn_thread_helper(void*)
+APEX MAIN
+Main Thread: APEX Pthread Wrapper
+OS Thread: APEX pthread wrapper
+pthread_create

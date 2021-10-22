@@ -1,0 +1,49 @@
+Program to run : ./conv_layer_process_halide
+time: 36.0982ms
+
+Elapsed time: 5.0443e-05 seconds
+Total processes detected: 1
+Cores detected on rank 0: 40
+Worker Threads observed on rank 0: 16
+Available CPU time on rank 0: 0.000807088 seconds
+Available CPU time on all ranks: 0.000807088 seconds
+
+Counter                                   : #samples | minimum |    mean  |  maximum |  stddev 
+------------------------------------------------------------------------------------------------
+                           status:Threads :        1     10.000     10.000     10.000      0.000   
+                            status:VmData :        1   1.32e+05   1.32e+05   1.32e+05      0.000   
+                             status:VmExe :        1     88.000     88.000     88.000      0.000   
+                             status:VmHWM :        1   3.22e+04   3.22e+04   3.22e+04      0.000   
+                             status:VmLck :        1      0.000      0.000      0.000      0.000   
+                             status:VmLib :        1   1.64e+04   1.64e+04   1.64e+04      0.000   
+                             status:VmPTE :        1    264.000    264.000    264.000      0.000   
+                            status:VmPeak :        1   6.95e+05   6.95e+05   6.95e+05      0.000   
+                             status:VmPin :        1      0.000      0.000      0.000      0.000   
+                             status:VmRSS :        1   3.22e+04   3.22e+04   3.22e+04      0.000   
+                            status:VmSize :        1   6.46e+05   6.46e+05   6.46e+05      0.000   
+                             status:VmStk :        1    152.000    152.000    152.000      0.000   
+                            status:VmSwap :        1      0.000      0.000      0.000      0.000   
+        status:nonvoluntary_ctxt_switches :        1      1.000      1.000      1.000      0.000   
+           status:voluntary_ctxt_switches :        1     41.000     41.000     41.000      0.000   
+------------------------------------------------------------------------------------------------
+
+GPU Timers                                           : #calls  |    mean  |   total  |  % total  
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+
+CPU Timers                                           : #calls  |    mean  |   total  |  % total  
+------------------------------------------------------------------------------------------------
+                                      pthread_create :       16      0.001      0.023    --n/a--
+                   Main Thread: APEX Pthread Wrapper :        1      0.000      0.000      5.294
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+                                        Total timers : 17
+Closing OTF2 event files...
+Writing OTF2 definition files...
+Writing OTF2 Global definition file...
+Writing OTF2 Node information...
+Writing OTF2 Communicators...
+Closing the archive...
+done.
+/home/sshirzad/src/halide-tutorials/experiments/conv_layer/build
