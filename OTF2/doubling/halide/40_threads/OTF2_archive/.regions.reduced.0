@@ -1,0 +1,5 @@
+0	pthread_create
+1	APEX MAIN
+2	Main Thread: APEX Pthread Wrapper
+3	OS Thread: APEX pthread wrapper
+4	Halide::Runtime::Internal::spawn_thread_helper(void*)

@@ -1,0 +1,60 @@
+Program to run : ./doubling_halide
+
+Elapsed time: 6.2043e-05 seconds
+Total processes detected: 1
+Cores detected on rank 0: 40
+Worker Threads observed on rank 0: 40
+Available CPU time on rank 0: 0.00248172 seconds
+Available CPU time on all ranks: 0.00248172 seconds
+
+Counter                                   : #samples | minimum |    mean  |  maximum |  stddev 
+------------------------------------------------------------------------------------------------
+                    1 Minute Load average :        1      1.990      1.990      1.990      0.000   
+                              CPU Guest % :        2      0.000      0.000      0.000      0.000   
+                           CPU I/O Wait % :        2      0.000      0.000      0.000      0.000   
+                                CPU IRQ % :        2      0.361      0.384      0.407      0.023   
+                               CPU Idle % :        2     35.107     35.401     35.696      0.294   
+                               CPU Nice % :        2      0.000      0.000      0.000      0.000   
+                              CPU Steal % :        2      0.000      0.000      0.000      0.000   
+                             CPU System % :        2     21.309     21.337     21.366      0.029   
+                               CPU User % :        2     42.577     42.865     43.152      0.287   
+                           CPU soft IRQ % :        2      0.000      0.013      0.025      0.013   
+                              DRAM Energy :        2      7.000      7.000      7.000      0.000   
+                         Package-0 Energy :        2    109.000    109.500    110.000      0.500   
+                           status:Threads :        3     11.000     31.000     41.000     14.142   
+                            status:VmData :        3   1.31e+05   3.13e+05   4.04e+05   1.29e+05   
+                             status:VmExe :        3    116.000    116.000    116.000      0.000   
+                             status:VmHWM :        3   3.98e+04   4.82e+04   5.34e+04   5988.918   
+                             status:VmLck :        3      0.000      0.000      0.000      0.000   
+                             status:VmLib :        3   8.67e+04   8.67e+04   8.67e+04      0.000   
+                             status:VmPTE :        3    392.000    582.667    680.000    134.832   
+                            status:VmPeak :        3   9.15e+05   2.45e+06   3.21e+06   1.08e+06   
+                             status:VmPin :        3      0.000      0.000      0.000      0.000   
+                             status:VmRSS :        3   3.98e+04   4.82e+04   5.34e+04   5988.918   
+                            status:VmSize :        3   9.15e+05   2.41e+06   3.15e+06   1.05e+06   
+                             status:VmStk :        3    152.000    152.000    152.000      0.000   
+                            status:VmSwap :        3      0.000      0.000      0.000      0.000   
+        status:nonvoluntary_ctxt_switches :        3      2.000   1657.667   2750.000   1190.486   
+           status:voluntary_ctxt_switches :        3     44.000   1.34e+04   2.66e+04   1.08e+04   
+------------------------------------------------------------------------------------------------
+
+GPU Timers                                           : #calls  |    mean  |   total  |  % total  
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+
+CPU Timers                                           : #calls  |    mean  |   total  |  % total  
+------------------------------------------------------------------------------------------------
+                                      pthread_create :       40      0.000      0.005    --n/a--
+                   Main Thread: APEX Pthread Wrapper :        1      0.000      0.000      2.192
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+                                        Total timers : 41
+Closing OTF2 event files...
+Writing OTF2 definition files...
+Writing OTF2 Global definition file...
+Writing OTF2 Node information...
+Writing OTF2 Communicators...
+Closing the archive...
+done.
+/home/sshirzad/src/halide-tutorials/experiments/doubling/build
