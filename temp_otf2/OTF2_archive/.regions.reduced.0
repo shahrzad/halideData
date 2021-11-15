@@ -1,0 +1,7 @@
+0	pthread_create
+1	APEX MAIN
+2	Main Thread: APEX Pthread Wrapper
+3	profile_halide_do_task
+4	OS Thread: APEX pthread wrapper
+5	Halide::Runtime::Internal::spawn_thread_helper(void*)
+6	profile_halide_do_par_for
